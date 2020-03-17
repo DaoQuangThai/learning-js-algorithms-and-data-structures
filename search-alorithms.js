@@ -183,6 +183,7 @@ Once you have smaller sorted arrays, merge those arrays with other sorted arrays
 Once the array has been merged back together, return the merged (and sorted!) array
 */
 
+//Merge Sort
 function mergeSort() {
   if (arr.length <= 1) return arr; // base case
   let mid = Math.floor(arr.length / 2);
